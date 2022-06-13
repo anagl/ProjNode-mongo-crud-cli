@@ -1,0 +1,21 @@
+{
+  "name": "projnode-mongo-crud-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "taskcli": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mongoose": "^6.3.6"
+  }
+}
